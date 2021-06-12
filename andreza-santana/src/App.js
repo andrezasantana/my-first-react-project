@@ -1,5 +1,5 @@
-import Title from "./componentes/Title";
-import Fruit from "./componentes/Fruit";
+import Title from "./component/Title";
+import Fruit from "./component/Fruit";
 
 import fruits from "./fruits";
 
