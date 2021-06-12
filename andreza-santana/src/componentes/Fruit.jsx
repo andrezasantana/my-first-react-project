@@ -1,7 +1,7 @@
 function Fruit(props) {
     return (
         <div>
-            <h3>{props.name} - {props.id}</h3>
+            <h3>{props.id} - {props.name}</h3>
             <p>{props.description}</p>
             <img src={props.image} alt="imagem de fruta" style={{"width": "100px"}}></img>
         </div>

@@ -10,7 +10,7 @@ function App() {
       {
         fruits.map(fruit => {
           return (
-            <Fruit name={fruit.name} id={fruit.id} description={fruit.description} image={fruit.image}></Fruit>
+            <Fruit id={fruit.id} name={fruit.name} description={fruit.description} image={fruit.image}></Fruit>
           );
         })
       }
